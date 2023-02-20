@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>상품 보기 페이지</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/product.css">
+
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/product.js"></script>
+</head>
+
+<body>
+  <!-- header 영역 시작 -->
+  <header>
+    <div id="gnb_top">
+      <nav id="gnb_top_inner">
+        <ul>
+          <li>
+            <a href="login.html">로그인</a>
+          </li>
+          <li>
+            <a href="member.html">회원가입</a>
+          </li>
+          <li>
+            <a href="#">마이페이지</a>
+          </li>
+          <li>
+            <a href="#">주문조회</a>
+          </li>
+          <li class="basket">
+            <a href="#">장바구니</a>
+            <div class="basket_circle">
+              <p>0</p>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="header_top">
+      <div id="header_top_inner">
+        <div id="header_top_first">
+          <h1>
+            <a href="index.html">
+              <img src="images/logo.png" alt="로고">
+            </a>
+          </h1>
+
+          <div id="header_search_area">
+            <fieldset>
+              <legend>검색어 입력</legend>
+              <form action="#">
+                <input type="search" class="saerch_bar" placeholder="검색하실 상품명을 입력해주세요">
+                <input type="image" src="images/loupe.png" alt="검색" class="search_img">
+              </form>
+            </fieldset>
+          </div>
+
+          <ul>
+            <li><a href="#">특가</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">베스트</a></li>
+            <li><a href="#">신제품</a></li>
+            <li><a href="#">라이브</a></li>
+          </ul>
+        </div>
+        <div id="header_top_second">
+          <ul>
+            <li><a href="category.html">BASE</a></li>
+            <li><a href="#">EYE</a></li>
+            <li><a href="#">LIP</a></li>
+            <li><a href="#">NAIL</a></li>
+            <li><a href="#">TOOL</a></li>
+            <li><a href="#">SET</a></li>
+            <li><a href="#">EDITION</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header 영역 종료 -->
+
+  <!-- content 영역 시작 -->
+  <div id="container">
+    <img class="left_arrow" src="images/left-arrow.png" alt="왼쪽으로 이동 화살표" width="17">
+    <img class="right_arrow" src="images/right-arrow.png" alt="오른쪽으로 이동 화살표" width="17">
+    <div id="imgBox">
+      <div id="img_box">
+        <img src="images/product4-1.jpg" alt="productimg">
+        <img src="images/product4-2.jpg" alt="productimg">
+        <img src="images/product4-3.jpg" alt="productimg">
+      </div>
+    </div>
+
+    <div id="rightBox">
+      <div id="miniBox"><span class="mnb01">HIT</span><span class="mnb02">NEW</span></div>
+      <div id="productPrice">
+        <div class="productP pP01">    
+          <h1>롬앤 시스루 베일라이터 #하이라이터</h1>
+        </div>
+        <div class="productP pP02">
+          <span class="Pleft sobi">소비자가</span><br>
+          <span class="Pleft"><strong>판매가</strong></span><br>
+          <span class="Pleft">상품코드</span><br>
+          <span class="Pright sobi sobi1">13,000원</span><br>
+          <span class="Pright price">9,900원</span><br>
+          <span class="Pright code">P00000UU</span><br>
+        </div>
+        <div class="Poption productP">
+          <span>베일라이터 선택</span>
+          <select class="Sright" name="" id="">
+            <option value=""> - [필수] 옵션을 선택해 주세요 - </option>
+            <option value="">--------------------------------</option>
+            <option value="">01 선 키스트 베일</option>
+            <option value="">02 문 키스트 베일</option>
+          </select>
+        </div>
+        <div class="productP wndml">
+          <img src="images/smRlavy.png" alt="느낌표" width="12">
+          <p>최소 주문 수량 1개 이상 / 최대 주문 수량 5개 이하</p><br>
+          <img src="images/smRlavy.png" alt="느낌표" width="12">
+          <p>옵션 선택 박스를 선택하시면 아래에 상품이 추가됩니다.</p>
+        </div>
+
+      </div>
+      <div id="btnP">
+        <button class="gnrl"><a href="#">후기 (596)</a></button>
+        <button class="ansdml"><a href="#">문의 (171)</a></button>
+        <span>총 상품금액 <strong>0</strong> (0개)</span><br>
+        <button class="rnao"><a href="#">구매하기</a></button>
+        <button class="wkd"><a href="#">장바구니</a></button>
+        <button class="Wla"><a href="#">관심상품</a></button>
+      </div>
+
+      <div id="naver">
+        <img src="images/naver.png" alt="네이버 구매" width="90px">
+        <button class="naverBN"><a href="#"><img src="images/naverN.png" alt="네이버 로고" width="15px"><span>Pay 구매</span> </a></button>
+        <button class="Wlabtn"><a href="#">찜</a></button>
+        <div class="slide">
+          <p class="slide01"><strong>머니 결제 혜택</strong> 최대 3% 적립 + 소득공제</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- content 영역 종료 -->
+
+  <!-- footer 영역 시작 -->
+  <footer>
+    <section id="customer">
+      <div id="customer_inner">
+        <ul>
+          <li>
+            <img src="images/footer_info.png" alt="롬앤 고객센터">
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/marketing.png" alt="마케팅/제휴 문의">
+            </a>
+            <a href="#">
+              <img src="images/global_expert.png" alt="해외 수출 문의">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/rmd_footer_store.jpg" alt="롬앤 오프라인 매장">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/rmd_footer_benefit.jpg" alt="온라인 멤버쉽 혜택">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="footer_copy_area">
+      <div id="footer_copy_inner">
+        <div id="sns_info">
+          <h4>
+            <img src="images/rmd_footer_logo.jpg" alt="하단 로고">
+          </h4>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="images/youtube_box_3.png" alt="유튜브">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/footer_sns_insta.jpg" alt="유튜브">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/footer_sns_blog.jpg" alt="유튜브">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/footer_sns_facebook.jpg" alt="유튜브">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/footer_sns_katalk.jpg" alt="유튜브">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="company_info">
+          <p class="company_title">
+            <strong>(주)롬앤</strong>
+          </p>
+          <p class="company_content">
+            서울특별시 종로구 Tel: 02.1234.5678 Fax: 02.1234.5678 사업자등록번호: 123-45-67890
+          </p>
+          <p class="company_content">
+            통신판매신고번호: 제2022-서울종로-1234호 대표자 : 김롬앤
+          </p>
+          <div id="company_policy">
+            <a href="#">개인보호정책</a>
+            <a href="#">이용약관동의</a>
+          </div>
+          <p class="company_copy">
+            &copy; 2022 SRFAMILY, CO.,LTD.All Right Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer 영역 시작 -->
+
+  <!-- arrow 영역 시작 -->
+  <div id="arrow">
+    <a href="#">
+      <img src="images/upload.png" alt="위로가기">
+    </a>
+  </div>
+  <!-- arrow 영역 종료 -->
+</body>
+
+</html>
