@@ -1,0 +1,161 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a{
+    text-decoration: none; 
+    font-size: 12px;
+    color: inherit;
+}
+
+#all{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.btnn{
+    position: relative;
+    top: 70px;
+    padding-left: 28%;
+}
+
+.btnn > button{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    padding: 5px 5px 8px 5px;
+}
+
+.ones {
+    position: relative;
+    top: 80px;
+    height: 200px;
+}
+
+.ones h2{
+    padding-left: 49%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.ones h1{
+    padding-left: 32%;
+    padding-top: 50px;
+    font-size: 1.3em;
+}
+
+.p1{
+    padding-top: 40px;
+    padding-left: 32%;
+    font-size: 0.9em;
+    letter-spacing: -1px;
+}
+
+.p2{
+    padding-top: 10px;
+    padding-left: 32%;
+    font-size: 0.9em;
+}
+
+#kakao{
+    position: relative;
+    top: 70px;
+    margin: auto;
+    height: 100px;
+}
+
+#kakao .btnkko {
+    margin-left: 32%;
+    width: 480px;
+    height: 60px;
+    background-color:#FEE500;
+    border: 1px solid #FEE500;
+    border-radius: 5px;
+}
+
+#kakao .imgkko{
+    position: absolute;
+    width: 50px;
+    left: 33%;
+    top: 7px;
+}
+
+#kakao .pkko{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 45%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.add1{
+    position: relative;
+    width: 1300px;
+    top:80px
+}
+
+#dlfqks{
+    padding: 36px 0;
+    margin: auto;
+    width: 480px;
+    left: 25%;
+    border-top: 1px solid #ebebeb;
+}
+
+#dlfqks>p{
+    padding-left: 42%;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#dlfqks:after{
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    content: "또는";
+    margin: 0 auto;
+    padding: 0 10px;
+    background: #fff;
+    font-size: 12px;
+    color: #b2b2b2;
+    transform: translateX(-50%);
+}
+
+#add{
+    position: relative;
+    border-top: 3px solid gray;
+    padding-top: 15px;
+    width: 480px;
+    top: 100px;
+    height: 300px;
+    left: 31.5%;
+}
+.fP{
+    font-size: 1em;
+    text-align: left;
+    line-height: 17px;
+}
+
+.miniP{
+    padding-top: 5px;
+    color: #878787;
+    font-size: 1em;
+}
+
+strong{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.imgs{
+    position: absolute;
+    left: 205px;
+    top: 34px;
+}
